@@ -1,0 +1,13 @@
+﻿app_protocol,src_port,dst_port,message,timestamp
+HTTP,54321,80,GET /index.html HTTP/1.1,0.01
+HTTP,80,54321,HTTP/1.1 200 OK,0.045
+HTTP,54321,80,GET /image.png HTTP/1.1,0.12
+HTTP,80,54321,HTTP/1.1 404 Not Found,0.16
+HTTP,54321,80,GET /api/data HTTP/1.1,0.3
+HTTP,80,54321,HTTP/1.1 200 OK,0.34
+HTTP,54321,80,POST /login HTTP/1.1 (user=admin&pass=1234),0.25
+HTTP,80,54321,HTTP/1.1 302 Found (Redirecting...),0.28
+HTTP,54321,80,GET /dashboard HTTP/1.1,0.35
+HTTP,80,54321,HTTP/1.1 200 OK (Welcome to Dashboard),0.41
+HTTP,54321,80,GET /api/data HTTP/1.1,0.52
+HTTP,80,54321,HTTP/1.1 200 OK (JSON Data Output),0.58
