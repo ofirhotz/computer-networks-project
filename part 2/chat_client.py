@@ -34,10 +34,10 @@ def start_client(): # יצירת לקוח
         threading.Thread(target=receive_messages, args=(client,), daemon=True).start()
 
         while True:
-            # הדפסת Me ידנית ללא ירידת שורה
+           
             sys.stdout.write("Me: ")
             sys.stdout.flush()
-            # קבלת קלט מהמשתמש ללא הדפסת Me פנימית (מונע כפילות)
+           
             msg = sys.stdin.readline().strip()
             if msg:
                 client.send(msg.encode('utf-8'))
