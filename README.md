@@ -1,9 +1,8 @@
 # 🌐 Computer Networks: Traffic Analysis & Socket Programming
 
-![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-Packet%20Analysis-1679A7?style=flat&logo=wireshark&logoColor=white)
-![Scapy](https://img.shields.io/badge/Scapy-Packet%20Crafting-red?style=flat)
-![Sockets](https://img.shields.io/badge/TCP%2FIP-Socket%20Programming-brightgreen?style=flat)
+[<img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white" alt="Python" />](#)
+[<img src="https://img.shields.io/badge/Wireshark-Packet%20Analysis-1679A7?style=flat&logo=wireshark&logoColor=white" alt="Wireshark" />](#)
+[<img src="https://img.shields.io/badge/TCP%2FIP-Socket%20Programming-brightgreen?style=flat" alt="Sockets" />](#)
 
 A hands-on networking project covering end-to-end network traffic simulation, packet-level protocol inspection (HTTP/TCP/IP), and multi-client socket communication in Python.
 
